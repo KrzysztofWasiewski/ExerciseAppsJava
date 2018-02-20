@@ -1,18 +1,21 @@
 package Loops;
 
 /**
+ * Loops training
  * Created by Kris on 2017-08-01.
  */
 public class Divisible {
 
-    public void divisibleBySeven() {
+    //This method prints all numbers divisible by 7 for range 1-500
+    public static void divisibleBySeven() {
 
         String result = "";
 
-        for (int i = 1; i <= 500; i++) {
+        for (int i = 1; i <= 40; i++) {
 
             if (i % 7 == 0) {
 
+                //printing in one line instead of verses. Could use a stringbuilder.
                 result = result + " " + i;
 
             }
@@ -21,7 +24,8 @@ public class Divisible {
         System.out.println(result);
     }
 
-    public void divisibleByAnyNumberAnyRange(int x, int y) {
+   //taking two arguments. Checks if numbers from range 1-y are divisable by x
+    public static void divisibleByAnyNumberAnyRange(int x, int y) {
 
         String result = "";
 
@@ -35,6 +39,14 @@ public class Divisible {
         }
 
         System.out.println(result);
+    }
+
+    //testing
+    public static void main(String[] args) {
+
+        divisibleByAnyNumberAnyRange(7,500);
+        divisibleBySeven();
+
     }
 
     }
