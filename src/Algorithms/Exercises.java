@@ -1,4 +1,4 @@
-package Arithmetics;
+package Algorithms;
 
 import java.util.Random;
 
@@ -16,7 +16,7 @@ public class Exercises {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
                 if (arr[i][j] % 7 == 0) {
-                    //two sums - testingtwo different styles of adding
+                    //two sums - testing two different styles of adding
                     sum1 = sum1 + arr[i][j];
                     sum2 += arr[i][j];
                 }
@@ -71,11 +71,7 @@ public class Exercises {
         return arr;
     }
 
-    //
-
-
     //test
-
     public static void main(String[] args) {
 
         addElementsDividedBySeven(createAndFillArrayRandom());
