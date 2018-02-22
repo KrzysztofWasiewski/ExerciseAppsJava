@@ -49,7 +49,7 @@ public class Palindrome_Checker {
 
     }
 
-   public void check_mechanism() {
+    public void check_mechanism() {
 
         for (int i = input.length() - 1; i >= 0; i--) {
 
