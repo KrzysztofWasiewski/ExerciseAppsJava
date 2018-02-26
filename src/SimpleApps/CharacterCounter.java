@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Kris on 2017-08-02.
  */
-public class Character_Counter {
+public class CharacterCounter {
 
     public void characterCount() {
 

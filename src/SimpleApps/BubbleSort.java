@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Kris on 2017-10-16.
  */
-public class Bubble_Sort_v1 {
+public class BubbleSort {
 
     Scanner sc = new Scanner(System.in);
 

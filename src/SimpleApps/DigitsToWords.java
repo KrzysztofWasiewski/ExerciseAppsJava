@@ -1,4 +1,4 @@
-package Algorithms;
+package SimpleApps;
 
 /**
  * Created by Kris on 2018-02-26.
