@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /***************************************************************************************************************
  * This exercise app is meant to draw a star (asterisk) pyramid, where the User sets the height of the pyramid.*
+ * The pyramid is drawn both horizontally and vertically.                                                      *
  * Created by Kris on 2018-02-26.                                                                              *
  **************************************************************************************************************/
 public class StarPyramid {
@@ -30,9 +31,29 @@ public class StarPyramid {
         }
     }
 
-    //TODO drawing pyramid horizontally - put spaces before asterisk - number of spaces in 1st row - (height-1)
-    // public static void drawPyramidHorizontally(int height){
-    //}
+    //TODO find a simpler way to count spaces and asterisks - there must be another way.
+    public static void drawPyramidHorizontally(int height) {
+        int numberOfSpaces = (height - 1);
+        for (int i = 0; i < height; i++) {
+            int numberOfStars = height - numberOfSpaces;
+            String row = "";
+            for (int j = numberOfSpaces; j > 0; j--) {
+                row += " ";
+            }
+            numberOfSpaces--;
+            if (numberOfStars == 1) {
+                for (int k = numberOfStars; k > 0; k--) {
+                    row += "*";
+                }
+                System.out.println(row);
+            } else {
+                for (int k = numberOfStars+(numberOfStars-1); k > 0; k--) {
+                    row += "*";
+                }
+                System.out.println(row);
+            }
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -40,7 +61,7 @@ public class StarPyramid {
         System.out.println("Please type the height of your pyramid:");
         int pyramidHeight = sc.nextInt();
         drawPyramidVertically(pyramidHeight);
-        //drawPyramidHorizontally(pyramidHeight);
+        drawPyramidHorizontally(pyramidHeight);
 
 
     }
