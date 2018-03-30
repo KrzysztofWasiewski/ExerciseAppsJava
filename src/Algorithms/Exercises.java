@@ -41,7 +41,7 @@ public class Exercises {
     //sums even elements in each row separately, then inserts them in an array with results
     public static void sumEvenNumbersInRows(int[][] arr) {
         int sumInRow;
-        int rowCounter = 0; //counts rows, so that we can fill in array with results
+       //int rowCounter = 0; //counts rows, so that we can fill in array with results
         int[] arrayAddedRows = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
             sumInRow = 0;
@@ -50,10 +50,10 @@ public class Exercises {
                     sumInRow += arr[i][j];
                 }
             }
-            arrayAddedRows[rowCounter] = sumInRow;
-            rowCounter++;
+            arrayAddedRows[i] = sumInRow;
+
         }
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.println(arrayAddedRows[i]);
         }
 

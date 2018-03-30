@@ -5,7 +5,7 @@ import java.util.Scanner;
 /***********************************************************************************************************************
  * This algorithm is meant to print all available postal addresses. User types the name of the street and the number   *
  * of the last building on that street. Application prints all postal addresses, assuming that blocks of flats have    *
- * only uneven numbers, and that each block is a 3-storey building, and there are two flats              *
+ * only uneven numbers, and that each block is a 3-storey building, and there are two flats                            *
  * on each floor.                                                                                                      *
  *                                                                                                                     *
  * Created by Kris on 2018-02-28.                                                                                      *
