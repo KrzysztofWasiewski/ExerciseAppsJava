@@ -1,6 +1,6 @@
-package LambdaIntroduction;
+package Lambda;
 
-
+/*
 import GenericIntroduction.Person;
 
 public class Test {
@@ -38,3 +38,4 @@ public class Test {
     }
 
 }
+*/

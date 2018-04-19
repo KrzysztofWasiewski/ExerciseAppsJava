@@ -1,4 +1,4 @@
-package LambdaIntroduction;
+package Lambda;
 
 
 public interface TripleNumberInterface {

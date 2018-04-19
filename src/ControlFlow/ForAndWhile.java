@@ -1,4 +1,4 @@
-package Loops;
+package ControlFlow;
 
 /**
  * Created by Kris on 2017-07-31.

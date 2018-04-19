@@ -1,7 +1,7 @@
-package Loops;
+package ControlFlow;
 
 /**
- * Loops training
+ * ControlFlow training
  * Created by Kris on 2017-08-01.
  */
 public class Divisible {
