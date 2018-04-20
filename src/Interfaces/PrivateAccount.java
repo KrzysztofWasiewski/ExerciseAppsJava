@@ -5,7 +5,13 @@ package Interfaces;
  */
 public class PrivateAccount implements Account {
 
-    int balance = 0;
+    int balance;
+    int accountNumber;
+
+    public PrivateAccount(int balance, int accountNumber){
+        this.balance=balance;
+        this.accountNumber=accountNumber;
+    }
 
     @Override
     public void addResources(int newResources) {

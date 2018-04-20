@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78817009-4f41-4696-b99d-70c9553195c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interfaces/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interfaces/PrivateAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interfaces/VipPrivateAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Interfaces/PrivateAccount.java" afterPath="$PROJECT_DIR$/src/Interfaces/PrivateAccount.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,16 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrivateAccount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrivateAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Interfaces/PrivateAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VipPrivateAccount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Interfaces/VipPrivateAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/Interfaces/Doctor.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/Account.java" />
         <option value="$PROJECT_DIR$/src/Interfaces/PrivateAccount.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/VipPrivateAccount.java" />
       </list>
     </option>
   </component>
@@ -621,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524132603161</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added new exercises (Spring)">
+      <created>1524183219000</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1524183219000</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -667,7 +688,8 @@
     <MESSAGE value="Added exercies with Lambda and Map" />
     <MESSAGE value="Directory refactor" />
     <MESSAGE value="Added Lambda exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lambda exercises" />
+    <MESSAGE value="added new exercises (Spring)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new exercises (Spring)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -680,13 +702,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SimpleApps/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Exercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1056,13 +1071,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Interfaces/PrivateAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/VipPrivateAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
